@@ -74,7 +74,7 @@ public class Customer implements Serializable {
 	}
 
 	public static int getCount() {
-		return count;
+		return count+1;
 	}
 
 }
