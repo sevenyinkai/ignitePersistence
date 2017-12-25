@@ -27,7 +27,12 @@ public class Customer implements Serializable {
 
 	private String CustomerName;
 
+<<<<<<< HEAD
 	public int CustomerAge;
+=======
+	private String address;
+
+>>>>>>> 5d4e296cf13f405e6df653197b9bdd024fb86299
 
 	public String getCustomerID() {
 		return CustomerID;
@@ -40,6 +45,8 @@ public class Customer implements Serializable {
 	public String getCustomerName() {
 		return CustomerName;
 	}
+
+	public String getAddress(){return address;}
 
 	public void setCustomerName(String customerName) {
 		CustomerName = customerName;
