@@ -27,6 +27,9 @@ public class Customer implements Serializable {
 
 	private String CustomerName;
 
+	private String address;
+
+
 	public String getCustomerID() {
 		return CustomerID;
 	}
@@ -38,6 +41,8 @@ public class Customer implements Serializable {
 	public String getCustomerName() {
 		return CustomerName;
 	}
+
+	public String getAddress(){return address;}
 
 	public void setCustomerName(String customerName) {
 		CustomerName = customerName;
