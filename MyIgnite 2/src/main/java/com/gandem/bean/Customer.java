@@ -27,6 +27,8 @@ public class Customer implements Serializable {
 
 	private String CustomerName;
 
+	public int CustomerAge;
+
 	public String getCustomerID() {
 		return CustomerID;
 	}
@@ -42,6 +44,8 @@ public class Customer implements Serializable {
 	public void setCustomerName(String customerName) {
 		CustomerName = customerName;
 	}
+
+	public int getCustomerAge(){return CustomerAge}
 
 	/**
 	 * 插入数据
